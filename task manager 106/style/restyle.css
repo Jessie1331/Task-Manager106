@@ -1,0 +1,111 @@
+html, body{
+  margin: 0;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 40px;
+    background-color: darkblue;
+}
+h1 p {
+    font-size: 20px;
+    color: peachpuff;
+ 
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+
+}
+main{
+    display: flex;
+    height: calc(100vh- 37px)
+}
+#list{
+    background-color:blanchedalmond;
+    background-image: url(https://cdn.mosoah.com/wp-content/uploads/2020/02/08161125/444.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    flex: 3;
+
+}
+#form{
+    background-image: url(https://cdn.wallpapersafari.com/65/71/602IgN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    flex: 2;
+}
+.form-label{
+    
+    padding-top: 15px;
+    font-size: 18px;
+    color: aquamarine;
+}
+.form-select{
+
+    margin-top: 10%;
+    color: cadetblue;
+
+}
+.whiteText{
+    background-color: white;
+
+}
+.greenText{ background-color:green; 
+}
+
+.blueText{ background-color:blue;
+ }
+
+
+.redText{ background-color:red; 
+}
+
+#iImportant{
+    color: aqua;
+    
+    
+    cursor: pointer;
+    
+}
+
+
+.btn-light{
+    text-align: center;
+    float: right;
+    background-color: aquamarine
+}
+.pending-task{
+    margin: 50px;
+    
+    font-size: 15px;
+    color: cadetblue;
+    font-family: fantasy;
+    
+    padding: 10px;
+    border: 1 px solid rgb (220, 109, 230);
+    box-shadow: -1px 1px 3px 6px#6a6a6a;
+    border-radius: 6px;
+    align-items: center;
+    
+    width: 30%;
+    height: fit-content;
+
+    background-color: azure;
+    border-style: groove;
+}   
+.pending-task div{
+    margin-left: 30px;
+    
+    
+
+}
+.pending-task .b{
+    color: black;
+}
+
